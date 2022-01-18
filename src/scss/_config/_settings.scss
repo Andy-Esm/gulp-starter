@@ -1,0 +1,19 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-weight: normal;
+  font-size: 16px;
+  font-style: normal;
+  overflow-x: hidden; /* чтобы не появлялась полоса прокрутки, если элемент выйдет за границы*/
+}
+
+img{
+  display: inline-block;
+  max-width: 100%;
+  height: auto; /* Что бы соблюдались пропорции */
+  vertical-align: middle;
+}

@@ -1,7 +1,8 @@
 //==========ИМПОРТ ВСПОМОГАТЕЛЬНЫХ СТИЛЕЙ================
-@import "_config/common";
+
+@import "_config/settings";
 //--------- Сброс стандартных стилей-----
-@import "_config/_reset";
+@import "_config/normalize";
 //--------- Импорт переменных------------
 @import "_config/_var";
 //----------Импорт миксинов--------------
@@ -13,4 +14,5 @@
 
 //----------Header-----------------------
 @import "components/header";
+//----------footer-----------------------
 @import "components/footer";
