@@ -1,0 +1,36 @@
+body {
+	font: var(--font-regular);
+	background-color: var(--bg-clr);
+	color: var(--text-clr-main);
+}
+
+.main {
+	min-height: 100vh;
+}
+
+[class*='__container'] {
+	max-width: 1452px;
+	margin: 0 auto;
+	padding: 0 var(--gap-sm);
+}
+
+.has-bg-img {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/*For correct work use variables in wrapper of img:
+<div class='wrapper' style='--width: 500'; --height: 700>
+  <img src='img.jpg' alt='img'/>
+</div>
+*/
+.img-holder {
+	aspect-ratio: var(--width) / var(--height);
+	background-color: var(--bg_main);
+	overflow: hidden;
+}
+
+.w-100 {
+	width: 100%;
+}

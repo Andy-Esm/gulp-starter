@@ -2,10 +2,12 @@
 
 ## Installation
 
-```git clone
+```bash
+git clone
 
 ```
 
-```npm install
+```bash
+npm install
 
 ```

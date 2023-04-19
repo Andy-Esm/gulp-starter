@@ -1,0 +1,55 @@
+// часто используемые параметры для позиционирования с помощью FLEX
+
+@mixin flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+@mixin flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin flex-space-btw {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+//----------GRID----------------
+@mixin grid-column-1 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: var(--gap-md);
+}
+
+@mixin grid-column-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: var(--gap-md);
+}
+
+@mixin grid-column-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: var(--gap-md);
+}
+
+//-----GAP-----------
+@mixin py-mx-auto {
+	padding-block: var(--gap-md);
+	margin-inline: auto;
+}
+
+//-----BUTTON---------------
+@mixin button {
+	display: inline-block;
+	padding: var(--btn-gap-sm) var(--btn-gap-md);
+	border-radius: var(--radius-10);
+	background-color: var(--btn-bg-primary);
+	color: var(--btn-color-secondary);
+	font: var(--font-middle);
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
