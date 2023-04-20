@@ -63,6 +63,24 @@ gulp-starter
 - [x] UglifyJS
 - [x] ImageMin
 
+## Usage
+
+### SCSS
+
+```scss
+//_common/_mixins.scss
+  @include flex-column;
+    // display: flex;
+    //flex-direction: column;
+  @include flex-center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+```
+
+
+
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
