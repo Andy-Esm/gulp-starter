@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-git clone
+git clone https://github.com/Andy-Esm/gulp-starter.git
 
 ```
 
